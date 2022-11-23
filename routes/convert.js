@@ -1,9 +1,9 @@
 const CSVToJSON = require('csvtojson')
 var express = require('express');
 const router = express.Router();
-const activityFile ="exemple/activities_lyon.csv" ; 
+const activityFile ="exemple/activities2.csv" ; 
 router.get('/', function(req, res) {
-  CSVToJSON({delimiter: ";"})
+  CSVToJSON({delimiter: ","})
   .fromFile(activityFile)
   .then(acivity => {
     res.send(acivity);  })
