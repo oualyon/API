@@ -3,7 +3,6 @@ const app = express()
 var cors = require('cors')
 
 const port = process.env.PORT || 5000;
-var hostname = "localhost" ; 
 
 app.use(cors())
 // const csvtojsonRouter = require('./routes/convert')
@@ -17,7 +16,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.listen(port, hostname, () => console.log(`Server running on port ${port} , ${hostname}`));
+app.listen(port,() => console.log(`Server running on port ${port}`));
 
 
 
