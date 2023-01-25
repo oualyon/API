@@ -1,11 +1,11 @@
 const CSVToJSON = require('csvtojson')
 var express = require('express');
 const router = express.Router();
-const activityFile ="exemple/activities2.csv" ; 
+const activityFile ="file/Activities.geojson" ; 
 var fs = require('fs');
 
  router.get('/', function(req, res) {
-   fs.readFile('file/Activities.geojson', function(err, data) {
+   fs.readFile(activityFile, function(err, data) {
      if (err) {
        res.send(err);
      } else {
@@ -18,7 +18,7 @@ var fs = require('fs');
 
 
 router.get('/:category', function(req, res) {
-  fs.readFile('file/Activities.geojson', function(err, data) {
+  fs.readFile(activityFile, function(err, data) {
     if (err) {
       res.send(err);
     } else {
