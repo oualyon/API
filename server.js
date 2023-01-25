@@ -5,9 +5,6 @@ var cors = require('cors')
 const port = process.env.PORT || 5000;
 
 app.use(cors())
-// const csvtojsonRouter = require('./routes/convert')
-var csvtojson = require('./routes/convert');
-app.use('/csv',csvtojson);
 var geojson = require('./routes/convert');
 app.use('/geo',geojson);
 
