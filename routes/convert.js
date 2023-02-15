@@ -16,7 +16,6 @@ var fs = require('fs');
    });
  });
 
-
 router.get('/:category', function(req, res) {
   fs.readFile(activityFile, function(err, data) {
     if (err) {
