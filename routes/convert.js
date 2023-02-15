@@ -2,6 +2,7 @@ const CSVToJSON = require('csvtojson')
 var express = require('express');
 const router = express.Router();
 const activityFile ="file/Activities.geojson" ; 
+var fs = require('fs');
 
 
  router.get('/', function(req, res) {
