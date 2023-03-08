@@ -2,6 +2,8 @@ const CSVToJSON = require('csvtojson')
 var express = require('express');
 const router = express.Router();
 const activityFile ="file/Activities.geojson" ; 
+const Station = "file/Station.geojson" ; 
+const Randos = "file/Randos.geojson" ; 
 var fs = require('fs');
 
 
@@ -16,6 +18,30 @@ var fs = require('fs');
      }
    });
  });
+
+ router.get('/Station', function(req, res) {
+  fs.readFile(Station, function(err, data) {
+    if (err) {
+      res.send(err);
+    } else {
+      var jsonData = JSON.parse(data);
+      res.setHeader('Content-Type', 'application/json');
+      res.send(JSON.stringify(jsonData));
+    }
+  });
+});
+
+router.get('/Randos', function(req, res) {
+  fs.readFile(Randos, function(err, data) {
+    if (err) {
+      res.send(err);
+    } else {
+      var jsonData = JSON.parse(data);
+      res.setHeader('Content-Type', 'application/json');
+      res.send(JSON.stringify(jsonData));
+    }
+  });
+});
 
  router.get('/:category/:postalCode?', function(req, res) {
   fs.readFile(activityFile, function(err, data) {
