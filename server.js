@@ -5,12 +5,11 @@ var cors = require('cors')
 const port = process.env.PORT || 5000;
 
 app.use(cors())
-var geojson = require('./routes/convert');
+var geojson = require('./routes/location_dot');
+var itinary = require('./routes/itinary_route');
 app.use('/geo',geojson);
+app.use('/itinary',itinary);
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
 
 app.listen(port,() => console.log(`Server running on port ${port}`));
 
