@@ -31,10 +31,9 @@ Il s'agit d'une API simple Express.js qui sert un fichier GeoJSON et permet de f
 ## API ENDPOINT
 | Routes                   | Type   | Parameter                                                      | Retour type | Accès user | Accès admin |
 | ------------------------ | ------ | -------------------------------------------------------------- | ----------- | ---------- | ----------- |
-| /                        | GET    |                                                                |   String    | NO         | NO          |
 | /geo                     | GET    |                                                                |   GeoJson   | NO         | NO          |
 | /geo/:category           | GET    |                                                                |   GeoJson   | NO         | NO          |
-
+| /Itinary/:type_itinary   | GET    |                                                                |   GeoJson   | NO         | NO          |
 ### Liste des ":category" géneré par l'etl oualyon
 * FootBall
 * BasketBall
@@ -52,6 +51,7 @@ Il s'agit d'une API simple Express.js qui sert un fichier GeoJSON et permet de f
 * Danse
 * Escalade
 * Handball
+* Course à pied ( requête : Course%20à%20pied ) 
 
 ## Contributors 
 
