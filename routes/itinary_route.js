@@ -6,7 +6,7 @@ const barathonB = "file/bar_guillotiere_to_vieuxlyon.geojson" ;
 const Presquile_historique = "file/Presquile_historique.geojson" ; 
 const StreetArt_1 = "file/StreetArt.geojson"
 const StreetArt_2 = "file/StreetArt2.geojson"
-const  Vieux_Lyon_Historique = "file/Vieux_Lyon_Historique"
+const  Vieux_Lyon_Historique = "file/Vieux_Lyon_Historique.geojson"
 
 
 var fs = require('fs');
