@@ -1,0 +1,15 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8360335,45.7676016]},"properties":{"Name":"Point artistique","Adresse":"2-3 Pl. de la Comédie, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8338524,45.7682262]},"properties":{"Name":"Point artistique","Adresse":"17 Rue Sainte-Catherine, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8303585,45.7691080]},"properties":{"Name":"Point artistique","Adresse":"Statue du Sergent Blandan, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8285753,45.7708911]},"properties":{"Name":"Point artistique","Adresse":"24 Mnt des Carmélites, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8277867,45.7716325]},"properties":{"Name":"Point artistique","Adresse":"5 Rue Masson, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8315939,45.7713115]},"properties":{"Name":"Point artistique","Adresse":"46 Mnt de la Grande-Côte, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8342829,45.7710103]},"properties":{"Name":"Point artistique","Adresse":"1 Pl. Chardonnet, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8358525,45.7712114]},"properties":{"Name":"Point artistique","Adresse":"20 Mnt Saint-Sébastien, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8358075,45.7706960]},"properties":{"Name":"Point artistique","Adresse":"Pentes de la Croix Rousse, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8348703,45.7698226]},"properties":{"Name":"Point artistique","Adresse":"2 Rue Coysevox, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8383995,45.7684477]},"properties":{"Name":"Point artistique","Adresse":"Quai du Rhône, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8363108,45.7682415]},"properties":{"Name":"Point artistique","Adresse":"Pl. Louis Pradel, 69001 Lyon, France"}},
+{"type":"Feature","geometry":{"type":"MultiLineString","coordinates":[[[4.8360544,45.7676038],[4.8359717,45.7679622],[4.8342052,45.7678507],[4.8342228,45.7682576],[4.8338524,45.7682262],[4.8320203,45.7681469],[4.8313026,45.7681726],[4.8305916,45.7688099],[4.830189,45.7687819],[4.8301485,45.7691363],[4.8301609,45.7693919],[4.8303597,45.7693909],[4.8303839,45.769656],[4.8293009,45.7698657],[4.828633,45.7708643],[4.8286573,45.7708801],[4.8277867,45.7716325],[4.8280506,45.7715178],[4.8315941,45.7713085],[4.8342169,45.7714991],[4.8343033,45.7710208],[4.8358558,45.7711921],[4.8358955,45.7711954],[4.8358531,45.7706793],[4.8358649,45.7701927],[4.8348202,45.7700171],[4.836244,45.770362],[4.836346,45.770247],[4.8367681,45.7705357],[4.8370326,45.7700918],[4.8373186,45.7696568],[4.8382235,45.7688436],[4.8382429,45.7684447],[4.8382379,45.7685714],[4.836558,45.76844]]]},"properties":{"Name":"Street Art Lyon","number":1}}
+]}

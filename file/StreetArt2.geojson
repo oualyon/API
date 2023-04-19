@@ -1,0 +1,19 @@
+{"type":"FeatureCollection", "features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.835835,45.771168]},"properties":{"Name":"Point artistique","Adresse":"Fresque Gainsbourg"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.833303,45.772215]},"properties":{"Name":"Point artistique","Adresse":"Fresque garage"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.833959,45.7695874]},"properties":{"Name":"Point artistique","Adresse":"Tags fréquents (en hauteur)"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.833105,45.769959]},"properties":{"Name":"Point artistique","Adresse":"Passage stylistes"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.831823,45.772391]},"properties":{"Name":"Point artistique","Adresse":"Tags assez fréquents"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.831651,45.771254]},"properties":{"Name":"Point artistique","Adresse":"Montée de la grande côte"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.835905,45.770629]},"properties":{"Name":"Point artistique","Adresse":"Mannequins suspendus"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.834827,45.770528]},"properties":{"Name":"Point artistique","Adresse":"Rue burdeau"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.834899,45.770589]},"properties":{"Name":"Point artistique","Adresse":"Atelier de création libertaire"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.835449,45.770659]},"properties":{"Name":"Point artistique","Adresse":"Atelier créatif de sérigraphie pour enfants"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.830712,45.768743]},"properties":{"Name":"Point artistique","Adresse":"Le Tasse-livres"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.830809,45.768664]},"properties":{"Name":"Point artistique","Adresse":"Galerie Street-Art"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8339213,45.7703524]},"properties":{"Name":"Point artistique","Adresse":"L'escalier bleu"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8340038,45.7696604]},"properties":{"Name":"Point artistique","Adresse":"Mosaïque au coin rue Donnée"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8300473,45.768668]},"properties":{"Name":"Point artistique","Adresse":"Passage de la Déserte"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.8302279,45.7693946]},"properties":{"Name":"Point artistique","Adresse":"Slow Joe par Don Mateo"}},
+{"type":"Feature","geometry":{"type":"MultiLineString","coordinates":[[[4.83415,45.76751],[4.83419, 45.7682],[4.83453, 45.76855],[4.8338771, 45.769866],[4.8332, 45.76976],[4.83304 ,45.77022],[4.83287 ,45.77022],[4.83282 ,45.77038],[4.8334 ,45.77041],[4.83396 ,45.77049],[4.83583 ,45.77062],[4.8359 ,45.77118],[4.83561 ,45.7716],[4.83324 ,45.7714],[4.83314, 45.77179],[4.83455, 45.77212],[4.83433, 45.7725],[4.83311, 45.77221],[4.83299, 45.77269],[4.83181, 45.77281],[4.83156, 45.77024],[4.83161, 45.76985],[4.832182, 45.76902],[4.83237, 45.768866],[4.832075, 45.768945],[4.83164, 45.768855],[4.830736, 45.7688085],[4.830245, 45.7693486],[4.8306001 ,45.7688017],[4.8299776, 45.7687814],[4.8300956, 45.7683767],[4.8300902, 45.7682078],[4.831281, 45.768152],[4.832713, 45.768114],[4.83278, 45.76764],[4.83409, 45.76751]]]},"properties":{"Name":"Street Art dans Lyon","number":1}}
+]}
